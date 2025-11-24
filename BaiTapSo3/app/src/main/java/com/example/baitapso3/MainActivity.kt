@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var display: TextView
 
-    // Calculator state variables
     private var currentInput = "0"
     private var firstNumber: Double? = null
     private var operator: String? = null
@@ -92,7 +91,6 @@ class MainActivity : AppCompatActivity() {
             currentInput = number
             isNewInput = false
         } else {
-            // Prevent multiple leading zeros
             if (currentInput == "0" && number != "0") {
                 currentInput = number
             } else if (currentInput != "0" || number != "0") {
@@ -115,19 +113,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onOperatorClicked(op: String) {
-        // If there's a previous result and no current operator, use it as first number
         if (firstNumber == null && lastResult != null) {
             firstNumber = lastResult
             currentInput = "0"
             isNewInput = true
         }
 
-        // If there's already an operator, calculate the result first
         if (operator != null && !isNewInput) {
             calculateResult()
         }
 
-        // Save current input as first number
         if (operator == null) {
             firstNumber = currentInput.toDoubleOrNull() ?: 0.0
         }
@@ -208,7 +203,6 @@ class MainActivity : AppCompatActivity() {
             currentInput = "0"
         }
 
-        // Remove trailing decimal point
         if (currentInput.endsWith(".")) {
             currentInput = currentInput.dropLast(1)
         }
