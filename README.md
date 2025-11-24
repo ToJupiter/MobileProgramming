@@ -7,3 +7,4 @@
 6. BaiTapSo6: Number display using Empty Views Activity with Spinner.
 7. BaiTapSo7: Student information (studentId, fullName) list with RecyclerView, with CRUD capability.
 8. BaiTapSo8: Gmail inbox list with RecyclerView.
+9. BaiTapSo9: Google Play Store mock application with vertical and horizontal list, using RecyclerView.
