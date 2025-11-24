@@ -6,3 +6,4 @@
 5. BaiTapSo5: Currency exchange app using Empty Views Activity with Spinner.
 6. BaiTapSo6: Number display using Empty Views Activity with Spinner.
 7. BaiTapSo7: Student information (studentId, fullName) list with RecyclerView, with CRUD capability.
+8. BaiTapSo8: Gmail inbox list with RecyclerView.
