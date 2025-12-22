@@ -98,6 +98,7 @@ MSSV: 20225715 <br>
 4. Chỉnh sửa: <br>
 ![ds4](image-3.png) <br>
 
+![fullmh](image-8.png)
 
 # Bài tập 2: Ứng dụng minh họa giao diện danh sách tương tự với ứng dụng Gmail <br>
 
@@ -146,7 +147,7 @@ MSSV: 20225715 <br>
 2. Khi bấm vào 1 email có thông báo đã bấm vào: <br>
 ![gmail2](image-5.png) <br>
 
-
+![fullmhb](image-9.png)
 
 # Bài tập 3: Ứng dụng minh họa giao diện danh sách lồng nhau tương tự ứng dụng Play Store <br>
 ## TỔNG QUAN ỨNG DỤNG <br>
@@ -193,3 +194,5 @@ MSSV: 20225715 <br>
 
 2. Giao diện thanh cuộn ngang: <br>
 ![play2](image-7.png) <br>
+
+![fullmh4](image-10.png)
